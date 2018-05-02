@@ -18,7 +18,7 @@ int main(void)
 
 		for(int i=0; i<8;i++){
 			PORTD &= ~(1<<i);
-			_delay_ms(150);
+			_delay_ms(200);
 		}
 			
 
