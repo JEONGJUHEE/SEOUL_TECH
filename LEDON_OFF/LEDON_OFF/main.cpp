@@ -15,6 +15,7 @@ int main(void)
     /* Replace with your application code */
     while (1) 
     {
+<<<<<<< HEAD
 		for(int i=0; i<8;i++){
 			PORTD &= ~(1<<i);
 			_delay_ms(400);
@@ -28,6 +29,12 @@ int main(void)
 
 			
 
+=======
+			for(int i=0; i<8;i++){
+				PORTD &= ~(1<<i);
+				_delay_ms(100);
+			}
+>>>>>>> LED_Shift_KOREA
     }
 }
 
