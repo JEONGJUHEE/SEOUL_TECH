@@ -16,10 +16,17 @@ int main(void)
     while (1) 
     {
 			PORTD=0xff;
+<<<<<<< HEAD
 			_delay_ms(500);
 			
 			PORTD=0x00;
 			_delay_ms(500);
+=======
+			_delay_ms(250);
+			
+			PORTD=0x00;
+			_delay_ms(250);
+>>>>>>> LED_Shift_KOREA
     }
 }
 
