@@ -15,18 +15,19 @@ int main(void)
     /* Replace with your application code */
     while (1) 
     {
+		for(int i=0; i<8;i++){
+			PORTD &= ~(1<<i);
+			_delay_ms(400);
+		}
 			PORTD=0xff;
-<<<<<<< HEAD
+
 			_delay_ms(500);
 			
 			PORTD=0x00;
 			_delay_ms(500);
-=======
-			_delay_ms(250);
+
 			
-			PORTD=0x00;
-			_delay_ms(250);
->>>>>>> LED_Shift_KOREA
+
     }
 }
 
